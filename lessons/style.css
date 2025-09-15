@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar img{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+ul{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: -3%;
+    transition: 0.4s ease;
+}
+
+ul li a:hover{
+    color: rgb(255, 106, 0);
+}
+
+.info{
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(0, 0, 0);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: #ff7200;
+}
+
+.info a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: black;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: inline block;
+    transition: 2s ease;
+}
+
+.info a:hover{
+    background-color: rgb(255, 106, 0);
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left:80%;
+    transform: translate(-50%);
+    bottom: 0;
+    float: left;
+    transition: left 2s ease;
+}
+
+.icon a{
+    text-decoration: none;
+    color: #000; 
+}
+
+.icon ion-icon{
+    margin-left: 60px;
+    color: #000;
+    margin-right: -40px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.social{
+    margin-left: 20px;
+}
+
+.icon ion-icon:hover{
+    color: #ff7200;
+}
+
